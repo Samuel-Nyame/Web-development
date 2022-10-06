@@ -1,0 +1,92 @@
+body{
+    background-image: url(Images/code5.jpg);
+    background-size: cover;
+}
+.header{
+    width:100%;
+    height: 100px;
+    background-color: rgb(12, 22, 32);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+h1{
+    color: white;
+    position: absolute;
+    left: 10%;
+    padding: 5px;
+}
+#maniacs{
+    position: absolute;
+    top: 9%;
+    padding: 3px;
+}
+p{
+    display: inline;
+    padding: 14px;
+    color: white;
+    position: absolute;
+    top: 9px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all 0.15s;
+    
+   
+}
+#service{
+    position: absolute;
+    right: 30%;
+}
+#contact{
+    position: absolute;
+    right: 20%;
+}
+#course{
+    position: absolute;
+    right: 10%;
+}
+p:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.main{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+#learn{
+    color: black;
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#text{
+    color: black;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#button{
+    text-transform: uppercase;
+    color: #f6f6f6;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid black;
+    padding: 9px;
+    background-color: rgb(12, 22, 32);
+    transition: all 0.8s;
+}
+#button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+    border: 2px solid black;
+    box-shadow: 2px 2px 15px black;
+    cursor: pointer;
+}
+img{
+    width: 4%;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px #f6f6f6;
+
+}
+::selection{
+    background-color: grey;
+    color: #f6f6f6;
+}
